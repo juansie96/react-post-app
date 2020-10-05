@@ -1,0 +1,29 @@
+.post-container {
+  color: #1d3557;
+  width: 45%;
+  margin: auto;
+  background-color: #f1faee;
+  margin: 3rem auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.post-container h2 {
+  margin: 1rem 0;
+}
+
+.post-container img {
+  max-width: 100%;
+}
+
+.post-container .content {
+  margin-top: 1rem;
+}
+
+.post-container .author {
+  color: #e63946;
+  text-align: right;
+  font-size: 0.7rem;
+  font-weight: 700;
+}

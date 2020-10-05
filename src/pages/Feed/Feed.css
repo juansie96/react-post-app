@@ -1,0 +1,14 @@
+.feed {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+   
+}
+

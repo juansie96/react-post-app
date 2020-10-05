@@ -1,0 +1,102 @@
+.new-post-container {
+    background: #f1faee;
+    width: 700px;
+    opacity: 1;
+    margin: auto;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    color: #1d3557;
+}
+
+.new-post-form {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.new-post-container h2 {
+    font-size: 2rem;
+}
+
+
+.new-post-container .input-container {
+    margin: 2rem 0;
+}
+
+.new-post-container input[type="file"] {
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.new-post-container .file-label {
+    display: inline-block;
+    width: 100%;
+    background: #285288;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.new-post-container .file-label:hover {
+    background:#4e7ebd;
+    transition: 0.2s ease-in;
+}
+.new-post-container #image:focus ~ .file-label  {
+    background:#4e7ebd;
+    transition: 0.3s ease-in;
+}
+/* .new-post-container #image:focus + .file-label  {
+    color: red;
+    background: white;
+} */
+
+.new-post-container .file-label i {
+    margin-right: 10px;
+}
+.new-post-container .input-container label {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.new-post-container .input-container input, 
+.new-post-container .input-container textarea {
+    background: #f1faee;
+    width: 100%;
+    border: 1px solid #1d3557;
+    margin-top: 1rem;
+    border-radius: 3px;
+    min-height: 2rem;
+    align-content: center;
+    color: #1d3557;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family: inherit;
+}
+
+.new-post-containre .input-container input[type="submit"] {
+    border: none;
+}
+
+input[type="submit" i] {
+    border-width: 0px;
+}
+
+.new-post-form .btn-primary {
+    background: #285288;
+}
+
+.new-post-form .btn-primary:hover {
+    background:#4e7ebd;
+    transition: 0.3s ease-in;
+}
+
+.new-post-form .error {
+    display: inline-block;
+    color: red;
+    margin-top: 10px;
+    font-weight: 600;
+}
